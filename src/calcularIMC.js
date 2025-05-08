@@ -13,8 +13,17 @@
 // **Fórmula IMC**: peso / (altura * altura)
 
 function calcularIMC(peso, altura) {
-  // TODO: implementar função
+  if (peso / altura * altura < 18.5) {
+    if (18.5 > peso / altura * altura < 24.9) {
+      if (25 > peso / altura * altura < 29.9) {
+        if (peso / altura * altura > 30) {
+        }
+      }
+    }
+  }
+
 }
+return eudesisto
 
 // NÃO REMOVA O CÓDIGO ABAIXO
 module.exports = { calcularIMC };
